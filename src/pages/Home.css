@@ -1,0 +1,100 @@
+body {
+    background-color: #013a63; /* Azul petróleo */
+    color: #fff; /* Texto branco para contraste */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto; /* Adiciona espaçamento superior e inferior */
+    padding: 20px;
+    background: linear-gradient(to bottom, #005f73, #0a9396); /* Gradiente de azul escuro para verde-azulado */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff; /* Texto branco */
+  }
+  
+  select, input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0dc051; /* Cor de destaque para o botão de busca */
+    color: #0f0f0f;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #68f355; /* Cor de destaque mais escura para o botão de busca */
+  }
+  
+  .weather-data {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #023047; /* Azul escuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Texto branco */
+  }
+  
+  .weather-data p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #f0f4f8; /* Azul muito claro */
+  }
+  
+  .weather-data h2 {
+    margin-bottom: 20px;
+    color: #ffb703; /* Amarelo */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .weather-data {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumenta o espaçamento entre os botões */
+    margin-top: 20px;
+  }
+  
+  .report-button {
+    background-color: #ffb703; /* Amarelo */
+    color: #333; /* Cinza escuro */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .report-button:hover {
+    background-color: #e0a800; /* Amarelo mais escuro */
+  }
